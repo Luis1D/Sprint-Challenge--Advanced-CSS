@@ -1,3 +1,12 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.link {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +168,27 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-container {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #F6F6F6;
+}
+.nav-container h1 {
+  font-size: 3.3rem;
+  margin-bottom: 1.5rem;
+}
+.nav-container .nav {
+  width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nav-container .nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
 }
 footer {
   color: #22283B;
