@@ -15,9 +15,17 @@
         width: 35rem;
         margin: 0 auto;
         .flex-row();
+    }
+}
 
-        a {
-            .link();
-        }
+a {
+    .link();
+    
+    &:hover {
+        color: grey;
+    }
+    &:focus {
+        text-decoration: line-through;
+        transition: .25s ease;
     }
 }
