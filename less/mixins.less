@@ -1,1 +1,31 @@
 // Mixins Here
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.link {
+    text-decoration: none;
+    font-size: 1.1rem;   
+}
+
+// BTN STYLES
+.sign-up-btn(@width, @height, @font-size) {
+    width: @width;
+    height: @height;
+    font-size: @font-size;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    text-align: center;
+    padding: .6rem;
+}
+.btn-colors(@background, @color) {
+    background-color: @background;
+    color: @color;
+}

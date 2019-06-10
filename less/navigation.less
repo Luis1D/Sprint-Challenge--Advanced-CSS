@@ -1,1 +1,31 @@
 // Navigation code here
+
+.nav-container {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: @nav-bg;
+
+    h1 {
+        font-size: 3.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .nav {
+        width: 35rem;
+        margin: 0 auto;
+        .flex-row();
+    }
+}
+
+a {
+    .link();
+    
+    &:hover {
+        color: grey;
+    }
+    &:focus {
+        text-decoration: line-through;
+        transition: .25s ease;
+    }
+}
